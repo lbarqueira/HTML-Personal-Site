@@ -1,0 +1,49 @@
+/*****************TAG SELECTORS********************/
+
+body {
+  background-color: #f9f7f7;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  border-color: #dbe2ef;
+  width: 10%;
+}
+
+h1 {
+  color: #3f72af;
+}
+
+h3 {
+  color: #3f72af;
+}
+
+p {
+  color: #112d4e;
+}
+
+/* Selects any <a> element when "hovered"  - Pseudo-classes   */
+/* can de used to Style an element when a user mouses over it */
+h1:hover {
+  color: #cdc9c3;
+}
+
+/*****************CLASS SELECTORS********************/
+.paragraph_flutter {
+  color: #112d4e;
+}
+.big_text {
+  font-size: 18px;
+}
+
+/*****************ID SELECTORS************************/
+/*    WHAT IS THE DIFFERENCE FOR CLASS SELECTOR?     */
+/* i can only have a particular ID once in one page. */
+/* Any HTML element can only have one ID but can have*/
+/* more than one class                               */
+#heading {
+  color: #3f72af;
+}
